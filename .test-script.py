@@ -55,3 +55,16 @@ while True:
           break
     else:
         print("Invalid Input")
+
+print("creating a new branch in the calculator")
+#Taking user input
+km = float(input("Enter value in kilometers: "))
+
+#Conversion factor
+cf = 0.621371
+
+#Calculate miles
+miles = km * cf
+
+#Print the output
+print('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))
